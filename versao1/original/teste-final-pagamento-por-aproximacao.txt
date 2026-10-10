@@ -1,0 +1,83 @@
+TESTE FINAL: SEGURANÇA EM PAGAMENTOS POR APROXIMAÇÃO
+
+Questão 1
+Um amigo desativou a aproximação porque "qualquer um copia o cartão pelo ar". O que torna essa cópia difícil?
+a) A maquininha só lê o cartão quando o Wi-Fi está ligado
+b) O banco confere a senha depois de cada compra
+c) Cada compra gera um código próprio, diferente das anteriores
+d) O sinal do cartão muda de frequência a cada hora
+Resposta: c
+
+Questão 2
+Duas pessoas discutem o limite para pagar sem senha. Qual afirmação se aproxima do que a Febraban informa?
+a) Costuma ser de R$ 200, e varia de acordo com o banco
+b) É fixado em lei e vale igual para todos os bancos
+c) Vale só para débito e não se aplica ao crédito
+d) Depende só da bandeira, e o banco não pode alterar
+Resposta: a
+
+Questão 3
+Por que a carteira digital tende a ser mais segura que o cartão físico em caso de furto?
+a) Ela bloqueia o pagamento depois da primeira compra
+b) Ela funciona apenas com internet móvel ligada
+c) Ela troca o número do cartão todos os dias
+d) O celular pede biometria ou senha para liberar o pagamento
+Resposta: d
+
+Questão 4
+Você vai a um show lotado e quer reduzir o risco de uso indevido do cartão. Qual atitude está de acordo com a orientação de especialistas?
+a) Deixar a aproximação ativa para pagar mais rápido
+b) Desativar a aproximação no app e reativar depois
+c) Levar um segundo cartão como reserva no bolso
+d) Desligar as notificações para não ser distraído
+Resposta: b
+
+Questão 5
+Ana tinha as notificações de compra ativadas e soube de uma cobrança indevida em minutos. Bia só viu a mesma cobrança na fatura, 60 dias depois. Qual consequência é mais provável para Bia?
+a) O prazo de contestação, em geral cerca de 45 dias, já ter passado
+b) O banco bloquear a conta dela automaticamente
+c) Ter de pagar uma multa ao banco pela demora
+d) Perder o direito de receber um cartão novo
+Resposta: a
+
+Questão 6
+Ao devolver o cartão, o vendedor se vira de costas por um instante e depois entrega. O que conferir antes de guardar?
+a) Se a maquininha imprimiu dois comprovantes
+b) Se o valor foi cobrado em dobro
+c) Se o cartão devolvido é mesmo o seu
+d) Se o app do banco está atualizado
+Resposta: c
+
+Questão 7
+Quem usa Pix por aproximação na carteira digital pode controlar o risco de qual forma?
+a) Pedindo ao lojista que desative o Pix na maquininha
+b) Evitando o uso de qualquer carteira digital
+c) Cadastrando a mesma chave em dois bancos
+d) Reduzindo o limite diário no app do banco
+Resposta: d
+
+Questão 8
+Um colega diz que nunca mais vai usar aproximação porque "o sinal é interceptado fácil". Qual resposta se apoia nas orientações da Febraban?
+a) Ele tem razão, e o ideal é voltar a usar só o cartão com senha
+b) A tecnologia é considerada segura, e os riscos vêm mais do uso
+c) Isso só vale para quem paga com Pix, o cartão é diferente
+d) O risco só existe em compras acima de R$ 200
+Resposta: b
+
+Questão 9
+Você percebe que perdeu o cartão no ônibus. Qual sequência está correta?
+a) Esperar 24 horas para ver se alguém devolve e só então bloquear
+b) Registrar o boletim de ocorrência e deixar o bloqueio para depois
+c) Bloquear no app, ligar para o banco, contestar o que não reconhece e guardar comprovantes
+d) Pedir às lojas onde pode ter sido usado que cancelem as compras
+Resposta: c
+
+Questão 10
+Ana desativou a aproximação antes de um show. No dia seguinte quer voltar a usar. O que ela precisa fazer?
+a) Reativar a função pelo app ou pela central do banco
+b) Pedir um cartão novo, pois a função some de vez
+c) Esperar 30 dias para o banco liberar de novo
+d) Cadastrar o cartão em outro banco
+Resposta: a
+
+GABARITO: 1-c, 2-a, 3-d, 4-b, 5-a, 6-c, 7-d, 8-b, 9-c, 10-a

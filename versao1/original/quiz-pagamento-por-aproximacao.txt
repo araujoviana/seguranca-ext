@@ -1,0 +1,48 @@
+QUIZ: PAGAMENTO POR APROXIMAÇÃO
+
+Questão 1
+Numa lanchonete lotada, o atendente diz que a aproximação está "fora do ar" e pede que você digite a senha na maquininha que ele segura. O que fazer?
+a) Digitar a senha, porque inserir o cartão é mais seguro que aproximar
+b) Desconfiar e pagar de outra forma, sem digitar a senha ali
+c) Entregar o cartão para ele passar na máquina do caixa
+d) Tentar aproximar de novo até a função voltar a funcionar
+Resposta: b
+Explicação: Golpistas podem desativar a aproximação de propósito para ver a senha e depois trocar o cartão na devolução. Digitar a senha com alguém olhando (a) é justamente o que eles querem, e entregar o cartão para longe da vista (c) piora a situação. Insistir na aproximação (d) não resolve a desconfiança.
+
+Questão 2
+Você esquece o cartão numa mesa de bar e sai. Pouco depois, alguém usa o cartão em duas lojas sem saber a sua senha. Por que isso foi possível?
+a) A senha fica gravada no chip e a maquininha a lê sozinha
+b) O código gerado em cada compra é igual ao das compras anteriores
+c) O banco libera cartões esquecidos por algumas horas
+d) Compras de valor baixo, até o limite do banco, dispensam senha
+Resposta: d
+Explicação: Em geral, compras de até R$ 200 passam sem senha (o valor varia por banco), por isso um cartão perdido vira dinheiro solto. A senha não fica no chip para leitura (a), e o que dificulta a cópia dos dados é justamente o código diferente a cada compra, o contrário de (b). Não existe liberação automática para cartões esquecidos (c).
+
+Questão 3
+O celular avisa duas compras por aproximação que você não fez, e o cartão sumiu da sua bolsa. Qual deve ser o primeiro passo?
+a) Bloquear o cartão pelo app e ligar para o banco
+b) Esperar a fatura fechar para contestar tudo junto
+c) Registrar o boletim de ocorrência antes de falar com o banco
+d) Ir até as lojas das compras pedir o estorno
+Resposta: a
+Explicação: Cada minuto com o cartão ativo é uma chance de nova compra, então o bloqueio vem primeiro. Esperar a fatura (b) deixa o cartão liberado e pode estourar o prazo de contestação, que na maioria dos bancos é de cerca de 45 dias. O boletim de ocorrência (c) é útil, mas depois do bloqueio. O estorno é tratado com o banco, não na loja (d).
+
+Questão 4
+Você vai a um bloco de Carnaval cheio e quer manter o pagamento por aproximação ativo. Qual escolha reduz mais o risco?
+a) Levar só o cartão físico, em um bolso fechado
+b) Aumentar o limite de aproximação para evitar pedir senha
+c) Usar o cartão cadastrado na carteira digital do celular
+d) Usar o cartão de crédito no lugar do de débito
+Resposta: c
+Explicação: A Febraban recomenda a carteira digital para quem quer manter a função ativa, e o celular pede biometria ou senha para liberar o pagamento. Bolso fechado (a) não protege contra furto. Aumentar o limite (b) aumenta o estrago possível. Trocar débito por crédito (d) não muda o fato de que o cartão físico paga sem senha.
+
+Questão 5
+No caixa, o atendente diz "pode passar" e você aproxima o celular na hora. Depois percebe que pagou R$ 480 em vez de R$ 84. Qual hábito teria evitado o erro?
+a) Manter a biometria do celular sempre ativada
+b) Conferir o valor no visor antes de aproximar
+c) Desligar o NFC logo depois de cada compra
+d) Pagar com o cartão físico em vez do celular
+Resposta: b
+Explicação: A aproximação é tão rápida que muita gente paga sem olhar o valor. A biometria (a) só confirma que é você quem paga, inclusive o valor errado. Desligar o NFC depois (c) não corrige uma compra já feita, e o cartão físico (d) teria o mesmo problema.
+
+GABARITO: 1-b, 2-d, 3-a, 4-c, 5-b

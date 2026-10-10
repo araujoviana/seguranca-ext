@@ -1,0 +1,19 @@
+DESAFIO: ENCONTRE OS 5 SINAIS DE FRAUDE
+
+Leia a cena e marque tudo o que deveria ter acendido um alerta.
+
+Sábado à tarde, bloco de rua lotado. Você pede uma cerveja a um ambulante e saca o cartão para pagar. Ele diz que a aproximação "deu problema hoje" e pede que você digite a senha. Enquanto você digita, ele inclina a cabeça para perto do teclado. Depois pega o cartão, se vira de costas para "passar de novo" e devolve em seguida. Você guarda o cartão na carteira sem olhar. Mais tarde, para economizar bateria, você desliga as notificações do app do banco. Na segunda-feira, abre o extrato e encontra duas compras por aproximação que você não fez.
+
+Perguntas
+1. Quais são os 5 sinais de fraude na cena?
+2. Em que momento a situação ainda poderia ter sido evitada?
+
+GABARITO
+
+1. A aproximação "fora do ar". Golpistas podem desativar a função de propósito para forçar o uso da senha.
+2. O ambulante olhando o teclado de perto. A Febraban alerta que alguns golpistas observam a senha digitada.
+3. O cartão saindo da sua vista. Quando ele se vira de costas, a troca do cartão fica fácil.
+4. Guardar o cartão sem conferir. Olhar o nome e o cartão devolvido teria revelado a troca na hora.
+5. Notificações desligadas. Sem aviso de compra, a cobrança estranha só aparece dias depois, e o prazo de contestação, na maioria dos bancos, é de cerca de 45 dias.
+
+Momento em que ainda dava para evitar: no primeiro sinal. Ao ouvir que a aproximação "deu problema", o certo era pagar de outra forma, sem digitar a senha ali.
