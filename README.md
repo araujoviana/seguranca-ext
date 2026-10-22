@@ -19,6 +19,6 @@ Objetos de aprendizagem do projeto de extensão (Mackenzie, 2º sem. 2026).
 
 ## Pendências
 
-- [ ] Preencher os nomes dos integrantes nos `.md` e regenerar os PDFs
-- [ ] Revisar a nota de uso de IA
-- [ ] Gravar o vídeo e subir no YouTube como não listado
+- [ ] Preencher os nomes dos integrantes nos `.md` e regenerar os PDFs.
+- [ ] Revisar a nota de uso de IA.
+- [ ] Gravar o vídeo e subir no YouTube como não listado.
