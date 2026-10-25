@@ -1,59 +1,69 @@
 ---
-title: "Roteiro do vídeo: o golpe da maquininha \"quebrada\""
+title: "Roteiro do vídeo: como funciona o golpe da maquininha \"quebrada\""
 subtitle: "Vídeo | Segurança em pagamentos por aproximação"
 ---
 
 **Projeto de Extensão | Mackenzie**
-**Integrantes:** [NOME 1], [NOME 2], [NOME 3]
+**Integrantes:** Matheus Gabriel Viana Araujo (RA 10420444) e Danilo Oliveira Santos (RA 10410905)
 
-**Duração:** cerca de 5 minutos. Os três integrantes aparecem na câmera.
-Troquem PESSOA 1, 2 e 3 pelos nomes de vocês e falem com as próprias palavras. O texto abaixo é só a base.
+**Título sugerido no YouTube:** Como funciona o golpe da maquininha "quebrada" (pagamento por aproximação)
+**Duração:** cerca de 5 minutos, em dois blocos. O Matheus fala a primeira metade e o Danilo, a segunda. Cada um aparece na câmera falando durante o seu bloco; as animações entram em tela cheia por alguns segundos, com a voz continuando.
+Falem com as próprias palavras. O texto abaixo é só a base (cerca de 550 a 600 palavras, ou uns 4 minutos de fala; o restante dos 5 minutos vem das animações e das demonstrações).
 **Publicação:** subir no YouTube como **não listado**.
 
-## [0:00 a 0:30] Abertura (os três juntos, de frente para a câmera)
+Legenda: **[CÂMERA]** é o apresentador falando de frente. **[ANIMAÇÃO n]** é um trecho feito no Manim (código em `video/manim/script.py`, vídeos prontos em `video/saida/`), exibido enquanto a voz continua.
 
-**PESSOA 1:** Você já pagou uma compra só encostando o cartão na maquininha?
-**PESSOA 2:** Rápido, né? Mas o que acontece se alguém pegar o seu cartão? Ou se a maquininha "parar de funcionar" bem na sua vez?
-**PESSOA 3:** Hoje a gente vai mostrar onde estão os riscos do pagamento por aproximação e como funciona o golpe da maquininha "quebrada".
+# BLOCO 1: MATHEUS (0:00 a 2:30)
 
-## [0:30 a 1:30] Como o pagamento funciona
+## [0:00 a 0:30] Abertura **[CÂMERA]**
 
-**PESSOA 1:** Esse pagamento usa uma tecnologia chamada NFC, que só funciona a poucos centímetros. E cada compra gera um código diferente, o que dificulta copiar os dados do cartão.
-**PESSOA 2:** Por isso a Febraban considera o método seguro. O ponto fraco é outro: até R$ 200 por compra (em alguns bancos é menos), a compra passa sem senha.
-**PESSOA 3:** Ou seja, se o cartão cair na mão errada, ele funciona quase como dinheiro. *(mostrar um cartão sobre a mesa)*
+**MATHEUS:** Você já pagou uma compra só encostando o cartão na maquininha? É rápido, mas e se alguém pegar o seu cartão? Ou se a maquininha "parar de funcionar" bem na sua vez? Eu sou o Matheus e, junto com o Danilo, vou mostrar como funciona o golpe da maquininha "quebrada". Eu explico o golpe, e o Danilo fala de como se proteger.
 
-## [1:30 a 3:00] A cena (encenação)
+## [0:30 a 1:15] Como o pagamento funciona **[CÂMERA]** + **[ANIMAÇÃO 1]**
 
-**Cenário:** lanchonete cheia. PESSOA 1 é a cliente, PESSOA 2 é o vendedor e PESSOA 3 narra.
+*(ANIMAÇÃO 1 entra no começo deste trecho: cartão encosta na maquininha, aparece o código único e o limite "R$ 200 sem senha")*
 
-**PESSOA 2 (vendedor):** A aproximação está fora do ar hoje. Insere o cartão e digita a senha aqui.
-*(PESSOA 1 digita. PESSOA 2 olha de perto para o teclado.)*
-*(PESSOA 2 se vira de costas por um instante e devolve o cartão. PESSOA 1 guarda sem olhar.)*
+**MATHEUS:** Esse pagamento usa uma tecnologia chamada NFC, que só funciona a poucos centímetros. E, pelo padrão de chip desses cartões, cada compra gera um código diferente, o que dificulta copiar os dados. Em 2020, quando o limite sem senha subiu, a Abecs, que reúne as empresas de cartões, disse que não encontrou problema significativo de segurança.
 
-**PESSOA 3 (para a câmera):** Pausa. Quantos sinais de golpe vocês viram? A aproximação "fora do ar", o olhar no teclado e o cartão saindo da vista. A Febraban alerta justamente para isso: o golpista decora a senha e troca o cartão na devolução.
-**PESSOA 1:** E o pior: com o meu cartão verdadeiro e a minha senha, ele não fica preso ao limite de R$ 200. Pode fazer compras grandes e até sacar dinheiro.
-**PESSOA 3:** Se as notificações do banco estiverem desligadas, a vítima só descobre dias depois.
+O ponto fraco é outro. Compras de até cerca de R$ 200, dependendo do banco, passam sem senha. Ou seja, se o cartão cair na mão errada, ele funciona quase como dinheiro. *(mostrar um cartão sobre a mesa)*
 
-## [3:00 a 4:30] Como se proteger (cada um fala duas dicas)
+## [1:15 a 2:30] O golpe da maquininha "quebrada" **[CÂMERA]** + **[ANIMAÇÃO 2]**
 
-**PESSOA 1:** Primeiro, olhe o valor no visor antes de aproximar, e não pague em maquininha com visor quebrado. Segundo, ative as notificações de compra no app do banco.
-**PESSOA 2:** Terceiro, em lugar cheio, como bloco e show, desative a aproximação no app. Quarto, prefira a carteira digital: o celular pede biometria ou senha para liberar o pagamento.
-**PESSOA 3:** Quinto, você mesmo passa o cartão. Se precisar digitar a senha, cubra o teclado e confira se o cartão devolvido é o seu. Sexto, perdeu o cartão ou viu uma cobrança estranha? Bloqueie no app, ligue para o banco e conteste logo, porque o prazo varia de banco para banco.
+**MATHEUS:** Imagina uma lanchonete cheia. O atendente diz: "a aproximação está fora do ar, insere o cartão e digita a senha aqui". Você digita, e ele olha de perto para o teclado. Na hora de devolver, ele se vira de costas por um instante e entrega um cartão parecido com o seu. *(demonstrar com dois cartões de mentira: um é guardado na mão e o outro é devolvido)* Você guarda sem olhar. *(ANIMAÇÃO 2: os quatro passos do golpe em sequência)*
 
-## [4:30 a 5:00] Fechamento
+Repara nos sinais: a aproximação "fora do ar", o olhar no teclado e o cartão saindo da sua vista. A Febraban alerta justamente para a troca de cartão. O golpista fica com o seu cartão verdadeiro e com a sua senha, e então não fica preso ao limite sem senha: pode fazer compras grandes e até sacar dinheiro. E, se as notificações do banco estiverem desligadas, você só descobre horas ou dias depois. Agora o Danilo mostra como evitar isso.
 
-**PESSOA 1:** Pagar por aproximação continua sendo uma boa ideia.
-**PESSOA 2:** Só precisa olhar o visor e ler a notificação.
-**PESSOA 3:** Manda esse vídeo para alguém que usa cartão. Valeu!
+# BLOCO 2: DANILO (2:30 a 5:00)
+
+## [2:30 a 2:45] Passagem **[CÂMERA]**
+
+**DANILO:** Valeu, Matheus. Eu sou o Danilo e vou falar do que dá para fazer para não cair nisso.
+
+## [2:45 a 4:30] Como se proteger **[CÂMERA]** + **[ANIMAÇÃO 3]** + demonstração de tela
+
+**DANILO:** Vou dividir em três momentos e, no fim, falo do que fazer se algo der errado. *(ANIMAÇÃO 3: linha do tempo "antes, na hora, depois")*
+
+**Antes de sair de casa:** ative as notificações de compra no app do banco, porque cada compra gera um aviso na hora. *(mostrar na tela do celular onde fica essa opção no app)* Se você vai a um lugar cheio, como bloco ou show, a Febraban recomenda desabilitar a aproximação por um tempo e pagar só inserindo o cartão. Alguns bancos permitem fazer isso pelo app, então veja se o seu tem essa opção. Uma alternativa é a carteira digital do celular, que pede biometria ou senha para liberar o pagamento. *(mostrar um pagamento por carteira digital, com a biometria)*
+
+**Na hora de pagar:** olhe o valor no visor antes de aproximar, e não pague em maquininha com visor quebrado. Você mesmo insere e passa o cartão, e ele não sai da sua vista. Se disserem que a aproximação está fora do ar, desconfie e pague de outro jeito. Se mesmo assim precisar digitar a senha, cubra o teclado e confira se o visor mostra só asteriscos. Se mostrar os números, não pague ali.
+
+**Depois de pagar:** confira se o cartão devolvido é mesmo o seu, e olhe a notificação para ver se o valor está certo.
+
+**E se der errado:** perdeu o cartão ou viu uma cobrança estranha? Bloqueie no app, ligue para o banco e conteste logo, porque quanto antes o banco for avisado, menor tende a ser o prejuízo. *(mostrar o botão de bloquear cartão no app)*
+
+## [4:30 a 5:00] Fechamento **[CÂMERA]**
+
+**DANILO:** Pagar por aproximação continua sendo uma boa ideia. Só precisa olhar o visor e ler a notificação. Manda esse vídeo para alguém que usa cartão. Valeu!
 
 ## Dicas de gravação
 
 - Gravem na horizontal, com boa luz e áudio limpo.
-- Ensaiem a cena uma vez antes. É a parte que mais prende a atenção.
-- Se passar de 5 minutos, cortem as dicas 5 e 6 da fala e deixem só na legenda.
-- Avisem no vídeo (ou na descrição) que a cena é encenada.
+- Ensaiem a demonstração da troca de cartão (Matheus, 1:15 a 2:30). É a parte que mais prende a atenção.
+- Para as telas do app, gravem a tela do celular com dados fictícios ou escondam saldo e nome antes.
+- Se passar de 5 minutos, cortem a parte "Depois de pagar" e deixem só na legenda.
+- Avisem no vídeo (ou na descrição) que a demonstração usa cartões de mentira.
 - Coloquem na descrição do YouTube a nota de uso de IA abaixo.
 
 ---
 
-*Uso de IA: este roteiro foi produzido pelo grupo com apoio de IA generativa (Claude, da Anthropic) na organização e revisão do texto. A gravação, a encenação e a apresentação são dos integrantes.*
+*Uso de IA: este roteiro foi redigido com apoio de IA generativa (Claude, da Anthropic), que ajudou a escrever os rascunhos e as animações. A gravação, a demonstração e a apresentação são dos integrantes.*

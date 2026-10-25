@@ -1,0 +1,8 @@
+1
+00:00:00,000 --> 00:00:02,000
+Como o pagamento por aproximação funciona
+
+2
+00:00:13,600 --> 00:00:16,600
+Até R$ 200 por compra passam sem senha (o valor varia por emissor)
+

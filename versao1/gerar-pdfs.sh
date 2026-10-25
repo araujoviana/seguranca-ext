@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Gera os PDFs de entrega a partir dos .md desta pasta.
-# Uso: ./gerar-pdfs.sh   (requer pandoc + xelatex)
+# Uso: ./gerar-pdfs.sh   (requer pandoc + xelatex + chromium)
 set -euo pipefail
 cd "$(dirname "$0")"
 mkdir -p pdf
@@ -13,10 +13,11 @@ for md in [0-9]-*.md; do
     -V lang=pt-BR \
     -V mainfont="DejaVu Sans" \
     -V fontsize=11pt \
-    -V geometry:margin=2.2cm \
+    -V papersize=a4 -V geometry:margin=2.2cm \
     -V colorlinks=true -V urlcolor=blue
   echo "ok  $out"
 done
 
-cp -f "Infográfico de segurança em pagamentos por aproximação.pdf" pdf/8-infografico.pdf
+chromium --headless --disable-gpu --no-sandbox --no-pdf-header-footer \
+  --print-to-pdf=pdf/8-infografico.pdf "file://$PWD/infografico/infografico.html" >/dev/null 2>&1
 echo "ok  pdf/8-infografico.pdf"

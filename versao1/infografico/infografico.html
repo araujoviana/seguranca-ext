@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Infográfico: segurança em pagamentos por aproximação</title>
+<style>
+  @page { size: 900px 1975px; margin: 0; }
+  :root {
+    --azul: #1b5fa8; --azul-claro: #e8f1fb;
+    --verde: #1e8a5a; --verde-claro: #e6f5ee;
+    --vermelho: #c0392b; --vermelho-claro: #fdecea;
+    --amarelo: #f5b700; --amarelo-claro: #fff6d9;
+    --texto: #1f2933; --cinza: #5b6670;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 900px; }
+  body { font-family: "DejaVu Sans", "Noto Sans", Arial, sans-serif; color: var(--texto);
+         background: #f4f7fb; font-size: 15px; line-height: 1.4; }
+  .pagina { padding: 36px 44px 28px; }
+  header { background: linear-gradient(135deg, var(--azul), #12406f); color: #fff;
+           border-radius: 22px; padding: 30px 34px; }
+  header .tag { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; opacity: .85; }
+  header h1 { font-size: 34px; line-height: 1.15; margin: 8px 0 10px; }
+  header p { font-size: 15px; opacity: .95; }
+  .fatos { display: flex; gap: 12px; margin-top: 18px; }
+  .fato { flex: 1; background: rgba(255,255,255,.14); border-radius: 12px; padding: 10px 12px; font-size: 13px; }
+  .fato b { display: block; font-size: 15px; margin-bottom: 2px; }
+
+  h2 { font-size: 21px; margin: 26px 0 12px; display: flex; align-items: center; gap: 10px; }
+  h2 .n { width: 32px; height: 32px; border-radius: 50%; color: #fff; display: inline-flex;
+          align-items: center; justify-content: center; font-size: 17px; flex: none; }
+  .s1 h2 .n { background: var(--vermelho); } .s2 h2 .n { background: var(--amarelo); color: #3a2c00; }
+  .s3 h2 .n { background: var(--verde); } .s4 h2 .n { background: var(--azul); }
+
+  .riscos { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .card { background: #fff; border-radius: 14px; padding: 14px 16px; border-left: 6px solid var(--cinza);
+          box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  .card h3 { font-size: 15px; margin-bottom: 4px; }
+  .card p { font-size: 13.5px; color: var(--cinza); }
+  .card.alerta { border-left-color: var(--vermelho); background: var(--vermelho-claro); }
+  .card.alerta p { color: #6b2a22; }
+  .selo { display: inline-block; background: var(--vermelho); color: #fff; font-size: 11px; font-weight: bold;
+          border-radius: 20px; padding: 2px 9px; margin-bottom: 6px; }
+
+  .golpe { background: #fff; border: 2px solid var(--vermelho); border-radius: 16px; padding: 16px 18px; margin-top: 14px; }
+  .golpe h3 { color: var(--vermelho); font-size: 16px; margin-bottom: 10px; }
+  .passos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .passo { background: var(--vermelho-claro); border-radius: 12px; padding: 10px; font-size: 13px; text-align: center; }
+  .passo .num { width: 28px; height: 28px; border-radius: 50%; background: var(--vermelho); color: #fff;
+                font-weight: bold; margin: 0 auto 6px; display: flex; align-items: center; justify-content: center; }
+  .golpe .fim { margin-top: 10px; font-size: 13.5px; }
+
+  .habitos { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .habito { display: flex; gap: 12px; background: #fff; border-radius: 14px; padding: 12px 14px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  .habito .n { width: 30px; height: 30px; border-radius: 8px; background: var(--verde); color: #fff;
+               font-weight: bold; display: flex; align-items: center; justify-content: center; flex: none; }
+  .habito b { display: block; font-size: 14px; margin-bottom: 2px; }
+  .habito span { font-size: 13px; color: var(--cinza); }
+  .habito.largo { grid-column: 1 / -1; }
+
+  .erro { background: var(--amarelo-claro); border: 2px solid var(--amarelo); border-radius: 16px; padding: 16px 20px; }
+  .erro ol { margin: 8px 0 0 20px; font-size: 14px; }
+  .erro li { margin-bottom: 3px; }
+  .limite { background: var(--azul-claro); border-radius: 14px; padding: 14px 18px; font-size: 14px; margin-top: 12px; }
+  .fecho { margin-top: 22px; background: var(--azul); color: #fff; text-align: center; border-radius: 16px;
+           padding: 16px; font-size: 18px; font-weight: bold; }
+  footer { margin-top: 18px; font-size: 11.5px; color: var(--cinza); line-height: 1.45; }
+  footer b { color: var(--texto); }
+</style>
+</head>
+<body>
+<div class="pagina">
+
+<header>
+  <div class="tag">Projeto de Extensão | Mackenzie</div>
+  <h1>Pagamento por aproximação: prático e, com alguns cuidados, seguro</h1>
+  <p>Encostou, pagou. A tecnologia tem várias camadas de segurança; o prejuízo vem de cartão perdido, golpe e pressa.</p>
+  <div class="fatos">
+    <div class="fato"><b>NFC</b>só funciona a poucos centímetros</div>
+    <div class="fato"><b>Código único</b>cada compra gera um código próprio (padrão EMV)</div>
+    <div class="fato"><b>Até R$ 200*</b>por compra, sem senha. *Varia por emissor.</div>
+  </div>
+</header>
+
+<section class="s1">
+  <h2><span class="n">1</span>Onde estão os riscos</h2>
+  <div class="riscos">
+    <div class="card"><h3>Cartão perdido ou esquecido</h3><p>Em geral dá para fazer várias compras pequenas, sem senha, antes de você perceber.</p></div>
+    <div class="card"><h3>Lugares cheios</h3><p>Blocos, shows e transporte lotado: a distração facilita furtos e golpes.</p></div>
+    <div class="card alerta"><span class="selo">GOLPE MAIS PERIGOSO</span><h3>A maquininha "quebrada"</h3><p>O golpista diz que a aproximação não funciona, vê a sua senha e troca o seu cartão por outro parecido.</p></div>
+    <div class="card"><h3>Valor errado no visor</h3><p>Como tudo é muito rápido, muita gente aproxima sem conferir quanto está pagando.</p></div>
+  </div>
+
+  <div class="golpe">
+    <h3>Como funciona o golpe da maquininha "quebrada"</h3>
+    <div class="passos">
+      <div class="passo"><div class="num">1</div>"A aproximação está fora do ar"</div>
+      <div class="passo"><div class="num">2</div>Você insere o cartão e digita a senha</div>
+      <div class="passo"><div class="num">3</div>Ele observa o teclado e leva o cartão para fora da sua vista</div>
+      <div class="passo"><div class="num">4</div>Devolve um cartão parecido: a troca</div>
+    </div>
+    <p class="fim"><b>Resultado:</b> com o cartão verdadeiro e a senha, ele não fica preso ao limite sem senha. Pode fazer compras maiores e até sacar dinheiro.</p>
+  </div>
+</section>
+
+<section class="s3">
+  <h2><span class="n">2</span>Sete hábitos que protegem</h2>
+  <div class="habitos">
+    <div class="habito"><div class="n">1</div><div><b>Olhe o visor antes de aproximar</b><span>Confira o valor. Visor quebrado ou ilegível: não pague ali.</span></div></div>
+    <div class="habito"><div class="n">2</div><div><b>Ative as notificações do banco</b><span>Cada compra gera um aviso na hora.</span></div></div>
+    <div class="habito"><div class="n">3</div><div><b>Desative a aproximação em lugar cheio</b><span>A Febraban recomenda desabilitar por um tempo. Veja se o seu banco permite pelo app.</span></div></div>
+    <div class="habito"><div class="n">4</div><div><b>Prefira a carteira digital</b><span>O celular pede biometria ou senha antes de liberar o pagamento. Para o crédito, a Febraban recomenda só a carteira.</span></div></div>
+    <div class="habito"><div class="n">5</div><div><b>Não perca o cartão de vista</b><span>Você mesmo insere e passa o cartão. Não entregue a ninguém.</span></div></div>
+    <div class="habito"><div class="n">6</div><div><b>Desconfie da máquina "sem aproximação"</b><span>Prefira pagar de outra forma. Se digitar a senha, cubra o teclado e confira os asteriscos e o cartão devolvido.</span></div></div>
+    <div class="habito largo"><div class="n">7</div><div><b>Perdeu o cartão ou viu uma compra estranha? Aja na hora.</b><span>Bloqueie pelo app, ligue para o banco e conteste. Quanto antes o banco for avisado, menor tende a ser o prejuízo.</span></div></div>
+  </div>
+</section>
+
+<section class="s2">
+  <h2><span class="n">3</span>Viu uma cobrança que não reconhece?</h2>
+  <div class="erro">
+    <b>Siga esta ordem:</b>
+    <ol>
+      <li><b>Bloqueie</b> o cartão no app.</li>
+      <li><b>Ligue</b> para o banco e informe o problema.</li>
+      <li><b>Conteste</b> as compras que você não fez.</li>
+      <li><b>Guarde</b> prints e comprovantes e, se houve furto ou golpe, registre um boletim de ocorrência.</li>
+    </ol>
+  </div>
+  <div class="limite"><b>Dica:</b> descubra o limite sem senha do seu cartão no app do banco. A Abecs elevou o teto para R$ 200 em 2020, mas a adoção depende de cada emissor.</div>
+</section>
+
+<div class="fecho">Segurança começa em olhar o visor e ler a notificação.</div>
+
+<footer>
+  <p><b>Autores:</b> Matheus Gabriel Viana Araujo e Danilo Oliveira Santos | Projeto de Extensão, Mackenzie, 2º semestre de 2026.</p>
+  <p><b>Fontes:</b> Agência Brasil, "Febraban dá dicas para pagamentos em maquininhas no Carnaval" (20/02/2025); Tecnoblog, "Você poderá pagar até R$ 200 por aproximação sem usar senha" (23/12/2020); Canaltech, "Pagamento por aproximação tem limite ampliado para R$ 200" (23/12/2020); Estado de Minas, "Golpe da troca de cartão: como se proteger com 5 dicas simples" (out/2025). Material sobre cartões e carteiras digitais; Pix por aproximação fora do escopo.</p>
+  <p><b>Uso de IA:</b> redigido com apoio de IA generativa (Claude, da Anthropic) na escrita de rascunhos, organização e checagem de fontes. Tema, escolha dos objetos e revisão final são dos integrantes.</p>
+</footer>
+
+</div>
+</body>
+</html>

@@ -4,7 +4,7 @@ subtitle: "Checklist | Segurança em pagamentos por aproximação"
 ---
 
 **Projeto de Extensão | Mackenzie**
-**Integrantes:** [NOME 1], [NOME 2], [NOME 3]
+**Integrantes:** Matheus Gabriel Viana Araujo (RA 10420444) e Danilo Oliveira Santos (RA 10410905)
 
 ## Antes de sair de casa
 
@@ -29,9 +29,9 @@ subtitle: "Checklist | Segurança em pagamentos por aproximação"
 ## Se algo der errado
 
 - ☐ Bloqueei o cartão no app e liguei para o banco.
-- ☐ Contestei as compras que não reconheço o quanto antes (o prazo varia de banco para banco).
+- ☐ Contestei as compras que não reconheço logo: quanto mais cedo o banco for avisado, menor tende a ser o prejuízo.
 - ☐ Guardei prints e comprovantes e registrei boletim de ocorrência, se houve furto ou golpe.
 
 ---
 
-*Uso de IA: este material foi produzido pelo grupo com apoio de IA generativa (Claude, da Anthropic) na organização e revisão do texto. Todo o conteúdo foi conferido pelos integrantes.*
+*Uso de IA: este material foi redigido com apoio de IA generativa (Claude, da Anthropic), que ajudou a escrever os rascunhos, organizar o conteúdo e checar as fontes. O tema, a escolha dos objetos e a revisão final são dos integrantes.*

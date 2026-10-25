@@ -4,7 +4,7 @@ subtitle: "Quiz | Segurança em pagamentos por aproximação"
 ---
 
 **Projeto de Extensão | Mackenzie**
-**Integrantes:** [NOME 1], [NOME 2], [NOME 3]
+**Integrantes:** Matheus Gabriel Viana Araujo (RA 10420444) e Danilo Oliveira Santos (RA 10410905)
 
 ## Questão 1
 
@@ -17,8 +17,8 @@ d) Tentar aproximar de novo até a função voltar a funcionar
 
 **Resposta correta: b**
 
+- **a) Incorreta.** Inserir o cartão não é o problema. O problema é digitar a senha *naquela* maquininha, com o atendente observando, que é exatamente o que o golpista quer. Com o cartão verdadeiro e a senha, ele não fica preso ao limite sem senha.
 - **b) Correta.** A aproximação "fora do ar" é um pretexto conhecido para forçar o uso da senha. O golpista observa a senha e troca o cartão na devolução.
-- **a) Incorreta.** Digitar a senha com alguém olhando é exatamente o que o golpista quer. Com o cartão verdadeiro e a senha, ele não fica preso ao limite sem senha.
 - **c) Incorreta.** Entregar o cartão e deixá-lo sair da sua vista facilita a troca. Você mesmo deve passar o cartão.
 - **d) Incorreta.** Insistir não resolve a desconfiança: se a função foi desativada de propósito, não vai voltar.
 
@@ -33,10 +33,10 @@ d) Compras de valor baixo, até o limite do banco, dispensam senha
 
 **Resposta correta: d**
 
-- **d) Correta.** Em geral, compras de até R$ 200 por transação passam sem senha (o valor pode ser menor em alguns bancos). Por isso um cartão perdido vale quase como dinheiro solto.
 - **a) Incorreta.** A senha não fica disponível no chip para a maquininha ler.
 - **b) Incorreta.** É o contrário: cada compra gera um código diferente, e é isso que dificulta copiar os dados do cartão.
 - **c) Incorreta.** Não existe liberação automática de cartões esquecidos. O cartão funciona porque ninguém o bloqueou.
+- **d) Correta.** Em geral, compras de até R$ 200 por transação passam sem senha (o valor depende de cada emissor e pode ser diferente). Por isso um cartão perdido vale quase como dinheiro solto.
 
 ## Questão 3
 
@@ -50,7 +50,7 @@ d) Ir até as lojas das compras pedir o estorno
 **Resposta correta: a**
 
 - **a) Correta.** Cada minuto com o cartão ativo é uma chance de nova compra, então o bloqueio vem primeiro.
-- **b) Incorreta.** Esperar deixa o cartão liberado para novas compras. Além disso, o prazo de contestação varia por banco e pode ser curto.
+- **b) Incorreta.** Esperar deixa o cartão liberado para novas compras. Além disso, quanto antes o banco for avisado, menor tende a ser o prejuízo.
 - **c) Incorreta.** O boletim de ocorrência ajuda na contestação, mas vem depois do bloqueio.
 - **d) Incorreta.** A contestação é feita com o banco, e não nas lojas.
 
@@ -65,9 +65,9 @@ d) Usar o cartão de crédito no lugar do de débito
 
 **Resposta correta: c**
 
-- **c) Correta.** A Febraban recomenda a carteira digital para quem quer manter a função ativa: o celular só libera o pagamento depois de biometria ou senha.
 - **a) Incorreta.** O bolso fechado não impede furto, e o cartão físico continua pagando sem senha.
 - **b) Incorreta.** Aumentar o limite aumenta o prejuízo possível se o cartão for furtado.
+- **c) Correta.** A Febraban recomenda a carteira digital para quem quer manter a função ativa: o celular só libera o pagamento depois de biometria ou senha.
 - **d) Incorreta.** Trocar débito por crédito não muda o fato de que o cartão físico paga sem senha até o limite.
 
 ## Questão 5
@@ -81,8 +81,8 @@ d) Pagar com o celular em vez do cartão físico
 
 **Resposta correta: b**
 
-- **b) Correta.** A aproximação é tão rápida que muita gente paga sem olhar o valor. Conferir o visor leva dois segundos.
 - **a) Incorreta.** A biometria só confirma que é você quem está pagando, inclusive o valor errado.
+- **b) Correta.** A aproximação é tão rápida que muita gente paga sem olhar o valor. Conferir o visor leva dois segundos.
 - **c) Incorreta.** Desativar depois não desfaz uma compra que já foi feita.
 - **d) Incorreta.** Pagar com o celular protege contra furto, mas não contra valor errado: você confirmaria o pagamento do mesmo jeito.
 
@@ -90,4 +90,4 @@ d) Pagar com o celular em vez do cartão físico
 
 **Gabarito:** 1-b, 2-d, 3-a, 4-c, 5-b
 
-*Uso de IA: este material foi produzido pelo grupo com apoio de IA generativa (Claude, da Anthropic) na organização e revisão do texto. Todo o conteúdo foi conferido pelos integrantes.*
+*Uso de IA: este material foi redigido com apoio de IA generativa (Claude, da Anthropic), que ajudou a escrever os rascunhos, organizar o conteúdo e checar as fontes. O tema, a escolha dos objetos e a revisão final são dos integrantes.*
