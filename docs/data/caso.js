@@ -1,6 +1,8 @@
 window.CASO = {
   inicio: "Lucas, 22 anos, comemora o aniversário de um amigo num bar perto da faculdade. Paga a primeira rodada aproximando o cartão de débito, deixa o cartão em cima da mesa e esquece. Vai embora às 23h. Semanas atrás, desligou as notificações do app do banco porque \"o celular apitava demais\".",
   perda: 440,
+  compras: [45, 120, 180, 95],
+  limite: 200,
   cenas: [
     {
       texto: "Na manhã seguinte, Lucas abre o app para fazer um Pix e vê quatro compras por aproximação feitas na madrugada: R$ 45, R$ 120, R$ 180 e R$ 95, em lojas e postos que ele nunca visitou. O saldo que ia pagar o aluguel ficou R$ 440 menor. Ele ainda nem percebeu que o cartão sumiu. Qual é o primeiro passo?",

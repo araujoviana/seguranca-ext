@@ -6,7 +6,7 @@ subtitle: "Texto | Segurança em pagamentos por aproximação"
 **Projeto de Extensão | Mackenzie**
 **Integrantes:** Matheus Gabriel Viana Araujo (RA 10420444) e Danilo Oliveira Santos (RA 10410905)
 
-Pagar por aproximação é rápido: você encosta o cartão ou o celular na maquininha e a compra sai, quase sempre sem senha. A tecnologia se chama NFC e só funciona a poucos centímetros. O padrão de chip usado nesses cartões (EMV) tem várias camadas de segurança e dificulta a clonagem; na prática, cada compra gera um código próprio, que não serve para outra compra. Em 2020, quando o limite sem senha foi ampliado, a Abecs, associação das empresas de cartões, informou não ter encontrado problema significativo de segurança. Os prejuízos descritos a seguir vêm do uso e da perda do cartão, e não de falhas da tecnologia.
+Pagar por aproximação é rápido: você encosta o cartão ou o celular na maquininha e a compra sai, quase sempre sem senha. A tecnologia se chama NFC e só funciona a poucos centímetros. O padrão de chip usado nesses cartões (EMV) tem várias camadas de segurança e dificulta a clonagem; na prática, cada compra gera um código próprio, que não serve para outra compra. Os prejuízos descritos a seguir vêm do uso e da perda do cartão, e não de falhas da tecnologia.
 
 Este material trata de cartões e de carteiras digitais. O Pix por aproximação não faz parte do escopo.
 

@@ -3,20 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#f6f4ef">
 <title>Desafio | Pagamento por aproximação</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<a class="skip" href="#cena">Ir para o conteúdo</a>
+<a class="skip" href="#c">Ir para o conteúdo</a>
 <header id="topo"></header>
-<main>
-<h1>Desafio: encontre os 5 erros</h1>
-<p class="lead">Leia a cena e toque nos trechos que aumentaram o risco de prejuízo. Cuidado: nem tudo que parece suspeito é erro.</p>
-<div class="card cena" id="cena"></div>
-<p>Trechos marcados: <b id="conta">0</b></p>
-<p><button class="btn" id="verificar" type="button">Verificar respostas</button></p>
+<main id="c">
+<h1>Encontre os 5 erros</h1>
+<p>Júlia vai a um show lotado. Toque nos trechos em que ela se expõe a risco. Cuidado: nem tudo o que ela faz é erro.</p>
+<div class="cena" id="cena"></div>
+<div class="painel" id="painel"><span class="c"><span id="conta">0</span> marcados</span><button class="btn" id="verificar" type="button">Verificar</button></div>
+<ul class="legenda" aria-label="Legenda do resultado" hidden id="legenda">
+<li><span class="amostra alvo acerto">trecho</span> erro que você achou</li>
+<li><span class="amostra alvo perdeu">trecho</span> erro que ficou de fora</li>
+<li><span class="amostra alvo falso">trecho</span> marcado, mas estava certo</li>
+</ul>
 <div id="resultado" aria-live="polite"></div>
-<p class="ia">Uso de IA: este material foi redigido com apoio de IA generativa (Claude, da Anthropic). O tema, a escolha dos objetos e a revisão final são dos integrantes. Versão para leitura: <a href="downloads/4-desafio.pdf">PDF</a>.</p>
 </main>
 <script src="assets/nav.js"></script>
 <script src="data/desafio.js"></script>

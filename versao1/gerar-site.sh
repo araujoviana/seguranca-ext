@@ -8,7 +8,7 @@ uv run python -I gerar-dados.py
 pagina() { # md saida classe [checklist]
   local extra=()
   [ "${4:-}" = checklist ] && extra=(-V checklist=1)
-  pandoc "$1" -o "../docs/$2" -f markdown -t html5 --standalone --template=site-template.html \
+  pandoc "$1" -o "../docs/$2" -f markdown -t html5 --standalone --template=site-template.html --lua-filter=site-filtro.lua \
     -V classe="$3" "${extra[@]}" --wrap=none
   echo "ok  docs/$2"
 }
