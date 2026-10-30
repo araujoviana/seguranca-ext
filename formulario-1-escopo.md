@@ -34,6 +34,6 @@ Agência Brasil (Febraban, 2025), Tecnoblog e Canaltech (limite de R$ 200, Abecs
 
 IA generativa (Claude, da Anthropic) foi usada como apoio na escrita de rascunhos, organização do conteúdo, checagem de fontes e criação das animações do vídeo. O tema, a escolha dos objetos, a gravação e a revisão final são dos integrantes. O uso de IA está declarado em cada material.
 
-## Situação em 25/10
+## Situação em 30/10
 
-Rascunhos de todos os objetos prontos. Falta gravar o vídeo e fazer a revisão final do grupo antes da entrega de 18/11.
+Todos os objetos estão prontos em versão publicável (ver `PLANO_PROGRESSO.md`). Falta gravar o vídeo e fazer a revisão final do grupo antes da entrega de 12/11.

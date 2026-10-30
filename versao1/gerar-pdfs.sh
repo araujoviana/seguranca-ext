@@ -21,3 +21,11 @@ done
 chromium --headless --disable-gpu --no-sandbox --no-pdf-header-footer \
   --print-to-pdf=pdf/8-infografico.pdf "file://$PWD/infografico/infografico.html" >/dev/null 2>&1
 echo "ok  pdf/8-infografico.pdf"
+
+# Infográfico em PNG (2x) e cópia dos entregáveis para a pasta de downloads do site (docs/)
+chromium --headless --disable-gpu --no-sandbox --hide-scrollbars --force-device-scale-factor=2 \
+  --window-size=900,1960 --screenshot=pdf/8-infografico.png "file://$PWD/infografico/infografico.html" >/dev/null 2>&1
+echo "ok  pdf/8-infografico.png"
+mkdir -p ../docs/downloads
+cp pdf/*.pdf pdf/8-infografico.png ../docs/downloads/
+echo "ok  docs/downloads"

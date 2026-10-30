@@ -27,7 +27,7 @@ d) O banco compara a assinatura do cliente com a do cartão a cada aproximação
 Duas pessoas discutem o limite para pagar sem senha. Qual afirmação está mais próxima da realidade?
 
 a) É de R$ 200 em todos os bancos e lojas, por regra do Banco Central
-b) O teto de R$ 200 é da Abecs (2020), mas cada emissor decide adotá-lo
+b) O teto de R$ 200 é da Abecs, mas cada emissor decide se o adota
 c) Vale para o débito, mas em geral compras no crédito exigem a senha
 d) É igual em todas as instituições e não muda de um banco para outro
 
