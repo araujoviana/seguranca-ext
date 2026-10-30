@@ -10,6 +10,10 @@ Pagar por aproximação é rápido: você encosta o cartão ou o celular na maqu
 
 Este material trata de cartões e de carteiras digitais. O Pix por aproximação não faz parte do escopo.
 
+## Como funciona por dentro
+
+O cartão (ou o celular) tem um chip ligado a uma antena. Quando você encosta na maquininha, ela emite um campo de rádio de curtíssimo alcance, o chip acorda com essa energia e responde só com os dados da compra. A resposta inclui um código gerado na hora para aquela transação, e o banco confere se o código é válido. Se alguém captasse esse código, ele não serviria para outra compra. Nas carteiras digitais, o celular costuma enviar um número substituto no lugar do número real do cartão e só libera o pagamento depois de biometria ou senha.
+
 ## O preço da conveniência
 
 Em dezembro de 2020 a Abecs elevou para R$ 200 o teto das compras sem senha, mas a adoção depende de cada emissor, e o limite do seu cartão pode ser diferente. Confira no app ou com o seu banco. Na prática, quem estiver com o seu cartão na mão consegue gastar até esse valor sem saber nada sobre você. Em caso de perda ou roubo, o cartão funciona quase como dinheiro solto.
@@ -22,6 +26,16 @@ Os problemas aparecem em quatro situações principais.
 2. **Lugares cheios.** Segundo a Febraban, a maioria dos furtos e golpes no Carnaval acontece no meio da multidão, quando as pessoas estão distraídas. O mesmo cuidado vale para shows e transporte lotado.
 3. **A maquininha "quebrada".** O golpista diz que a aproximação não está funcionando e pede que você insira o cartão e digite a senha. Ele observa a senha (segundo o Itaú, em matéria do Estado de Minas, às vezes a própria máquina foi adulterada para registrá-la) e, na hora de devolver, troca o seu cartão por outro parecido. **Esse é o golpe mais perigoso**: com o cartão verdadeiro *e* a senha, o criminoso não fica preso ao limite sem senha e pode fazer compras maiores e até saques.
 4. **Valor errado no visor.** Como tudo é muito rápido, muita gente aproxima sem conferir quanto está pagando.
+
+## Quatro mitos sobre pagar por aproximação
+
+**"Dá para clonar o meu cartão passando por perto."** É muito difícil. O sinal só funciona a poucos centímetros e cada compra usa um código próprio, então copiar os dados de uma compra não permite fazer outra. Em 2020, a Abecs informou não ter encontrado problema significativo de segurança. O risco real está em quem fica com o cartão na mão.
+
+**"Pagar com o celular é mais perigoso que com o cartão."** Em geral é o contrário. O celular exige biometria ou senha antes de liberar o pagamento, e o cartão físico paga sem senha até o limite. Por isso a Febraban sugere a carteira digital para quem quer manter a aproximação ativa.
+
+**"O limite sem senha é R$ 200 em qualquer banco."** O teto de R$ 200 foi definido pela Abecs, mas cada emissor decide se adota. O do seu cartão pode ser menor, e o app do banco mostra qual é.
+
+**"Se a aproximação não funciona, o jeito é inserir e digitar a senha."** Às vezes é só defeito, mas é também o pretexto do golpe da maquininha "quebrada". Prefira pagar de outra forma, e, se tiver mesmo que digitar, cubra o teclado e confira os asteriscos.
 
 ## Sete hábitos que reduzem esses riscos
 
