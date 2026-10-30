@@ -14,7 +14,7 @@
   };
 
   var trilha = [
-    ["texto.html", "Texto"], ["video.html", "Vídeo"], ["caso-pratico.html", "Caso prático"],
+    ["texto.html", "Texto"], ["video.html", "Vídeo", "off"], ["caso-pratico.html", "Caso prático"],
     ["desafio.html", "Desafio"], ["quiz.html", "Quiz"], ["checklist.html", "Checklist"],
     ["infografico.html", "Infográfico"], ["teste-final.html", "Teste final"]
   ];
@@ -25,6 +25,7 @@
   var topo = document.getElementById("topo");
   if (topo) {
     var itens = trilha.map(function (l, n) {
+      if (l[2]) return '<li><span class="off" aria-disabled="true"><span class="n">' + (n + 1) + "</span><span>" + l[1] + "<small>Na entrega final, 12/11</small></span></span></li>";
       return "<li><a href=\"" + l[0] + "\"" + (n === pos ? ' aria-current="page"' : "") + '><span class="n">' + (n + 1) + "</span>" + l[1] + "</a></li>";
     }).join("");
     topo.innerHTML = '<div class="in"><a class="marca" href="index.html">Pagamento por aproximação</a>' +
@@ -37,7 +38,8 @@
 
   var main = document.querySelector("main");
   if (main && pos >= 0) {
-    var ant = trilha[pos - 1], prox = trilha[pos + 1];
+    var ativos = trilha.filter(function (l) { return !l[2]; }), k = ativos.indexOf(trilha[pos]);
+    var ant = ativos[k - 1], prox = ativos[k + 1];
     var p = document.createElement("nav");
     p.className = "pager";
     p.setAttribute("aria-label", "Navegar pela trilha");
