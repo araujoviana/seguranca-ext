@@ -1,0 +1,11 @@
+[
+  { "at": "nfc.encosta", "offset": 1.35, "file": "bell_A5.wav", "gain_db": -14 },
+  { "at": "nfc.perto", "offset": 3.1, "file": "bell_A5.wav", "gain_db": -16 },
+  { "at": "codigo.gera", "offset": 0.1, "file": "tick_1.wav", "gain_db": -16 },
+  { "at": "codigo.gera", "offset": 1.05, "file": "tick_2.wav", "gain_db": -16 },
+  { "at": "codigo.gera", "offset": 2.0, "file": "tick_3.wav", "gain_db": -16 },
+  { "at": "codigo.copia", "offset": 1.5, "file": "tock_1.wav", "gain_db": -12 },
+  { "at": "limite.mao", "offset": 1.0, "file": "pop_1.wav", "gain_db": -14 },
+  { "at": "limite.mao", "offset": 1.85, "file": "pop_2.wav", "gain_db": -14 },
+  { "at": "limite.mao", "offset": 2.7, "file": "pop_3.wav", "gain_db": -14 }
+]

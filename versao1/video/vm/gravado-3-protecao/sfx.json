@@ -1,0 +1,10 @@
+[
+  { "at": "antes.antes", "offset": 0.8, "file": "click-confirm_1.wav", "gain_db": -14 },
+  { "at": "antes.show", "offset": 0.6, "file": "click_2.wav", "gain_db": -14 },
+  { "at": "antes.carteira", "offset": 1.2, "file": "bell_C5.wav", "gain_db": -16 },
+  { "at": "hora.visor", "offset": 0, "file": "whoosh-short_2.wav", "gain_db": -18 },
+  { "at": "depois.notifica", "offset": 0.3, "file": "bell_E5.wav", "gain_db": -14 },
+  { "at": "errado.bloqueia", "offset": 0, "file": "land_1.wav", "gain_db": -12 },
+  { "at": "errado.liga", "offset": 0, "file": "land-light_1.wav", "gain_db": -14 },
+  { "at": "errado.contesta", "offset": 0, "file": "land-light_2.wav", "gain_db": -14 }
+]

@@ -1,0 +1,45 @@
+{
+  "texts": [
+    {
+      "id": "hook",
+      "text": "O golpe da maquininha “quebrada”",
+      "role": "hook",
+      "px": 84,
+      "box": [
+        380,
+        70,
+        1160,
+        100
+      ],
+      "mark": "pede.fora",
+      "offset": -2.9,
+      "dur": 4.4
+    }
+  ],
+  "hero": {
+    "mark": "estrago.descobre",
+    "what": "O celular, que estava sem notificações, finalmente mostra R$ 4.039 em compras não reconhecidas, dias depois"
+  },
+  "terms": [
+    "maquininha",
+    "senha",
+    "notificações"
+  ],
+  "transitions": {
+    "pede": {
+      "type": "fade",
+      "dur": 0.3,
+      "why": "Mesma cena no balcão: o golpe continua com o olhar no teclado"
+    },
+    "troca": {
+      "type": "fade",
+      "dur": 0.5,
+      "why": "A cena do golpe fica parada e esmaecida para que os três sinais apareçam sobre ela"
+    },
+    "sinais": {
+      "type": "fade",
+      "dur": 0.5,
+      "why": "O balcão sai; o assunto passa a ser o que o golpista faz com cartão e senha"
+    }
+  }
+}

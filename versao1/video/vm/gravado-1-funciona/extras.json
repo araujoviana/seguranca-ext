@@ -1,0 +1,40 @@
+{
+  "texts": [
+    {
+      "id": "hook",
+      "text": "Encostou, pagou.",
+      "role": "hook",
+      "px": 84,
+      "box": [
+        560,
+        110,
+        800,
+        110
+      ],
+      "mark": "nfc.encosta",
+      "offset": -3.6,
+      "dur": 3.4
+    }
+  ],
+  "hero": {
+    "mark": "limite.dinheiro",
+    "what": "O total gasto por outra pessoa, sem senha, sobe para quase R$ 390 e fica em vermelho"
+  },
+  "terms": [
+    "chip",
+    "código",
+    "sem senha"
+  ],
+  "transitions": {
+    "nfc": {
+      "type": "fade",
+      "dur": 0.4,
+      "why": "Mesma maquininha e mesmo cartão; agora o foco passa para o código que cada toque gera"
+    },
+    "codigo": {
+      "type": "fade",
+      "dur": 0.5,
+      "why": "Os códigos somem e a maquininha vai para a esquerda: a tecnologia está segura, o assunto vira o cartão perdido"
+    }
+  }
+}

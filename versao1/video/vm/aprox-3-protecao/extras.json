@@ -1,0 +1,45 @@
+{
+  "texts": [
+    {
+      "id": "hook",
+      "text": "Como se proteger",
+      "role": "hook",
+      "px": 88,
+      "box": [
+        560,
+        80,
+        800,
+        100
+      ],
+      "mark": "antes.tres",
+      "offset": 0,
+      "dur": 2.0
+    }
+  ],
+  "hero": {
+    "mark": "errado.contesta",
+    "what": "Com o cartão bloqueado cedo, o prejuízo para de subir e fica pequeno"
+  },
+  "terms": [
+    "notificações",
+    "bloqueie",
+    "conteste"
+  ],
+  "transitions": {
+    "antes": {
+      "type": "fade",
+      "dur": 0.4,
+      "why": "A linha do tempo avança para a próxima parada, na hora de pagar"
+    },
+    "hora": {
+      "type": "fade",
+      "dur": 0.4,
+      "why": "A linha do tempo avança para depois do pagamento"
+    },
+    "depois": {
+      "type": "fade",
+      "dur": 0.5,
+      "why": "Sai do caminho normal e entra no plano para quando algo dá errado"
+    }
+  }
+}

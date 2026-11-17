@@ -1,0 +1,13 @@
+[
+  { "at": "pede.insere", "offset": 0.9, "file": "click_1.wav", "gain_db": -14 },
+  { "at": "pede.insere", "offset": 1.4, "file": "key_1.wav", "gain_db": -14 },
+  { "at": "pede.insere", "offset": 2.3, "file": "key_2.wav", "gain_db": -14 },
+  { "at": "pede.insere", "offset": 3.2, "file": "key_3.wav", "gain_db": -14 },
+  { "at": "pede.insere", "offset": 4.1, "file": "key_4.wav", "gain_db": -14 },
+  { "at": "troca.troca", "offset": 0.2, "file": "whoosh-short_1.wav", "gain_db": -16 },
+  { "at": "sinais.s1", "offset": 0, "file": "tick-crisp_1.wav", "gain_db": -14 },
+  { "at": "sinais.s2", "offset": 0, "file": "tick-crisp_2.wav", "gain_db": -14 },
+  { "at": "sinais.s3", "offset": 0, "file": "tick-crisp_3.wav", "gain_db": -14 },
+  { "at": "estrago.limite", "offset": 0.8, "file": "hit_1.wav", "gain_db": -12 },
+  { "at": "estrago.descobre", "offset": 0.2, "file": "tock_2.wav", "gain_db": -12 }
+]
