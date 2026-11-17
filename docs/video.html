@@ -9,28 +9,36 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=3">
-<meta http-equiv="refresh" content="0; url=index.html">
+<link rel="stylesheet" href="assets/style.css?v=4">
 </head>
 <body>
 <a class="skip" href="#c">Ir para o conteúdo</a>
 <header id="topo"></header>
 <main id="c">
 <h1>Como funciona o golpe</h1>
-<p>O golpe da maquininha “quebrada”, explicado em cinco minutos pelos dois integrantes. A gravação entra na entrega final, em 12/11. Por enquanto estão prontos o roteiro e as três animações de apoio.</p>
+<p>O golpe da maquininha “quebrada”, explicado em pouco mais de quatro minutos pelos dois integrantes. Tem legenda em português: ative no botão CC do player.</p>
+<section class="cena-video">
+<video id="filme" controls preload="metadata" poster="assets/video/video-completo.jpg" src="assets/video/video-completo.mp4">
+<track kind="captions" srclang="pt-BR" label="Português" src="assets/video/video-completo.vtt">
+Seu navegador não reproduz vídeo. <a href="assets/video/video-completo.mp4">Baixe o arquivo MP4</a>.
+</video>
+</section>
 <div class="divisao">
-<div><b>Matheus, 0:00 a 2:30</b><span>Como o pagamento funciona e como o golpe acontece, com a demonstração da troca de cartão.</span></div>
-<div><b>Danilo, 2:30 a 5:00</b><span>Como se proteger antes, na hora e depois de pagar, e o que fazer se algo der errado.</span></div>
+<div><b><a href="#filme" data-t="0">Matheus, 0:00 a 1:55</a></b><span>Como o pagamento funciona e como o golpe acontece, passo a passo.</span></div>
+<div><b><a href="#filme" data-t="115.6">Danilo, 1:55 a 4:16</a></b><span>Como se proteger antes, na hora e depois de pagar, e o que fazer se algo der errado.</span></div>
 </div>
-<p class="acoes"><a class="btn sec" href="downloads/2-roteiro-video.pdf" download>Roteiro completo (PDF)</a></p>
-<section class="cena-video"><h2>Como o pagamento funciona</h2>
-<video controls preload="metadata" src="assets/video/Cena1_Aproximacao.mp4">Seu navegador não reproduz vídeo.</video></section>
-<section class="cena-video"><h2>O golpe, em quatro passos</h2>
-<video controls preload="metadata" src="assets/video/Cena2_Golpe.mp4">Seu navegador não reproduz vídeo.</video></section>
-<section class="cena-video"><h2>Antes, na hora e depois de pagar</h2>
-<video controls preload="metadata" src="assets/video/Cena3_Protecao.mp4">Seu navegador não reproduz vídeo.</video>
-<p>Animações feitas em Manim. Na edição, elas ocupam a tela por alguns segundos enquanto a voz continua.</p></section>
+<p class="acoes"><a class="btn sec" href="downloads/2-roteiro-video.pdf" download>Roteiro (PDF)</a> <a class="btn sec" href="assets/video/video-completo.mp4" download>Baixar o vídeo (MP4, 10 MB)</a></p>
+<p>Os cartões que aparecem no vídeo são de mentira. As animações foram feitas em código e sincronizadas com a nossa fala, palavra por palavra, a partir de uma transcrição automática. A edição contou com apoio de IA generativa (Claude). A gravação, o roteiro final e a revisão são nossos.</p>
 </main>
-<script src="assets/nav.js?v=3"></script>
+<script src="assets/nav.js?v=4"></script>
+<script>
+document.querySelectorAll("[data-t]").forEach(function (a) {
+  a.addEventListener("click", function () {
+    var v = document.getElementById("filme");
+    v.currentTime = +a.dataset.t;
+    v.play();
+  });
+});
+</script>
 </body>
 </html>

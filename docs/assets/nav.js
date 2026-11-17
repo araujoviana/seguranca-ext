@@ -14,7 +14,7 @@
   };
 
   var trilha = [
-    ["texto.html", "Texto"], ["video.html", "Vídeo", "off"], ["caso-pratico.html", "Caso prático"],
+    ["texto.html", "Texto"], ["video.html", "Vídeo"], ["caso-pratico.html", "Caso prático"],
     ["desafio.html", "Desafio"], ["quiz.html", "Quiz"], ["checklist.html", "Checklist"],
     ["infografico.html", "Infográfico"], ["teste-final.html", "Teste final"]
   ];

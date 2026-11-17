@@ -51,15 +51,16 @@ O professor não fixou formatos. A regra que usamos: **quem avalia precisa testa
 ### Entrega final (12/11)
 
 - [ ] Os dois integrantes lerem todos os `.md` e confirmarem o conteúdo (a nota de IA afirma que a revisão final é deles)
-- [ ] Equilibrar o roteiro: Matheus ~340 palavras, Danilo ~280
+- [x] Equilibrar o roteiro: Matheus ~340 palavras, Danilo ~280
 - [ ] Preparar dois cartões de mentira para a demonstração da troca
 - [ ] Gravar as telas do celular (notificações, carteira digital, bloquear cartão) com dados fictícios
-- [ ] Gravar o vídeo (5 min, os dois na câmera), editar com as animações de `versao1/video/saida/`
+- [x] Gravar o vídeo (os dois na câmera) e editar com as animações (`versao1/video/vm/`, 4min16, com legenda)
 - [ ] Subir no YouTube como não listado, com a nota de IA e o aviso de cartões de mentira na descrição
 - [ ] Trocar as fontes de 2020 sobre o limite de R$ 200 por uma de 2024 a 2026 (a busca de hoje não achou fonte mais recente; o texto já avisa que o limite varia por emissor)
-- [ ] Colocar o link do vídeo em `docs/video.html` e no README
+- [x] Vídeo na página `docs/video.html` e no README (falta o link do YouTube)
 - [ ] Alinhar com o Kenzo a entrada do conteúdo na plataforma (PR em `src/data/mock.ts`)
-- [ ] Conferir os formatos pedidos no formulário final e ajustar, se necessário
+- [x] Conferir os formatos pedidos no formulário final: respostas em `RESPOSTAS_FORMS_FINAL.md`
+- [ ] Enviar o formulário final até 18/11: https://forms.cloud.microsoft/r/ReU8N9UWbe
 
 ## Sobre o formulário
 
