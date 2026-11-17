@@ -1,0 +1,34 @@
+{
+  "fixes": {"ABEX,": "Abecs,", "ABEX.": "Abecs.", "firma": "Febraban", "ban": null, "asterísticos,": "asteriscos,", "apagar,": "pagar,", "3": "três"},
+  "films": {
+    "gravado-1-funciona": {
+      "src": "brutos/matheus-editado.mp4", "trans": "matheus.json", "t0": 21.40, "t1": 67.20,
+      "title": "Como o pagamento por aproximação funciona (voz: Matheus)",
+      "scenes": [
+        {"id": "nfc", "start": 21.40, "attrs": {"chapter": "A tecnologia"}, "marks": {"encosta": 25.30, "perto": 28.62}},
+        {"id": "codigo", "start": 29.80, "attrs": {"chapter": "Um código por compra"}, "marks": {"gera": 34.26, "copia": 36.22, "abecs": 45.12}},
+        {"id": "limite", "start": 52.20, "attrs": {"chapter": "O ponto fraco"}, "marks": {"fraco": 52.46, "ate": 54.74, "mao": 63.16, "dinheiro": 64.82}}
+      ]
+    },
+    "gravado-2-golpe": {
+      "src": "brutos/matheus-editado.mp4", "trans": "matheus.json", "t0": 67.20, "t1": 119.00,
+      "title": "O golpe da maquininha quebrada (voz: Matheus)",
+      "scenes": [
+        {"id": "pede", "start": 67.20, "attrs": {"chapter": "O golpe"}, "marks": {"fora": 70.46, "insere": 72.40}},
+        {"id": "troca", "start": 74.60, "attrs": {"chapter": "A troca"}, "marks": {"olho": 76.16, "itau": 79.32, "vira": 86.66, "troca": 88.56}},
+        {"id": "sinais", "start": 94.30, "attrs": {"chapter": "Os sinais"}, "marks": {"sinais": 94.62, "s1": 95.82, "s2": 97.92, "s3": 99.36, "febraban": 101.04}},
+        {"id": "estrago", "start": 104.20, "attrs": {"chapter": "O estrago"}, "marks": {"tem": 104.44, "limite": 108.36, "compras": 110.46, "silencio": 113.20, "descobre": 116.04}}
+      ]
+    },
+    "gravado-3-protecao": {
+      "src": "brutos/danilo-original.mp4", "trans": "danilo.json", "t0": 14.10, "t1": 141.00,
+      "title": "Como se proteger (voz: Danilo)",
+      "scenes": [
+        {"id": "antes", "start": 14.10, "attrs": {"chapter": "Antes de sair"}, "marks": {"tres": 14.40, "antes": 19.70, "show": 34.12, "carteira": 55.76}},
+        {"id": "hora", "start": 62.90, "attrs": {"chapter": "Na hora de pagar"}, "marks": {"visor": 63.30, "vista": 72.10, "desconfia": 79.70, "cubra": 88.20}},
+        {"id": "depois", "start": 101.90, "attrs": {"chapter": "Depois"}, "marks": {"confere": 103.98, "notifica": 107.16}},
+        {"id": "errado", "start": 110.10, "attrs": {"chapter": "Se der errado"}, "marks": {"errado": 110.44, "bloqueia": 114.04, "liga": 116.26, "contesta": 119.44}}
+      ]
+    }
+  }
+}

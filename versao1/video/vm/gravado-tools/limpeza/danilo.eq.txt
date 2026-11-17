@@ -1,0 +1,1 @@
+entry(20,-14);entry(100,-14);entry(160,-6.9);entry(250,-9.7);entry(400,-4.4);entry(630,1.2);entry(1000,3.7);entry(1600,5.8);entry(2500,6.4);entry(3150,9.0);entry(4000,9.0);entry(5000,8.0);entry(6300,8);entry(8000,8);entry(10000,8);entry(20000,8)
