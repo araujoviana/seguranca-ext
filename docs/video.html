@@ -16,29 +16,14 @@
 <header id="topo"></header>
 <main id="c">
 <h1>Como funciona o golpe</h1>
-<p>O golpe da maquininha “quebrada”, explicado em pouco mais de quatro minutos pelos dois integrantes. Tem legenda em português: ative no botão CC do player.</p>
+<p>O golpe da maquininha “quebrada” em quatro minutos.</p>
 <section class="cena-video">
-<video id="filme" controls preload="metadata" poster="assets/video/video-completo.jpg" src="assets/video/video-completo.mp4">
+<video controls preload="metadata" src="assets/video/video-completo.mp4">
 <track kind="captions" srclang="pt-BR" label="Português" src="assets/video/video-completo.vtt">
 Seu navegador não reproduz vídeo. <a href="assets/video/video-completo.mp4">Baixe o arquivo MP4</a>.
 </video>
 </section>
-<div class="divisao">
-<div><b><a href="#filme" data-t="0">Matheus, 0:00 a 1:55</a></b><span>Como o pagamento funciona e como o golpe acontece, passo a passo.</span></div>
-<div><b><a href="#filme" data-t="115.6">Danilo, 1:55 a 4:16</a></b><span>Como se proteger antes, na hora e depois de pagar, e o que fazer se algo der errado.</span></div>
-</div>
-<p class="acoes"><a class="btn sec" href="downloads/2-roteiro-video.pdf" download>Roteiro (PDF)</a> <a class="btn sec" href="assets/video/video-completo.mp4" download>Baixar o vídeo (MP4, 10 MB)</a></p>
-<p>Os cartões que aparecem no vídeo são de mentira. As animações foram feitas em código e sincronizadas com a nossa fala, palavra por palavra, a partir de uma transcrição automática. A edição contou com apoio de IA generativa (Claude). A gravação, o roteiro final e a revisão são nossos.</p>
 </main>
 <script src="assets/nav.js?v=4"></script>
-<script>
-document.querySelectorAll("[data-t]").forEach(function (a) {
-  a.addEventListener("click", function () {
-    var v = document.getElementById("filme");
-    v.currentTime = +a.dataset.t;
-    v.play();
-  });
-});
-</script>
 </body>
 </html>
