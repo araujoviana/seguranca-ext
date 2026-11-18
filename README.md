@@ -31,7 +31,7 @@ Badge e certificado são gerados pela plataforma.
 - `docs/`: site estático (HTML/CSS/JS sem build) servido pelo GitHub Pages. `docs/data/` tem os dados de quiz e teste; `docs/downloads/` tem PDFs e PNG; `docs/assets/video/` tem o vídeo final em 720p, a capa e a legenda (`.vtt`).
 - `versao1/*.md`: fonte de cada objeto. `versao1/infografico/`: fonte do infográfico. `versao1/video/vm/`: animações do vídeo final, sincronizadas com a gravação (ver `versao1/video/vm/gravado-tools/README.md`). `versao1/video/manim/`: primeiras animações, em Manim. `versao1/original/`: primeira versão (06/10).
 - `mackseguro/questoes-pagamentos-aproximacao.ts`: as 15 questões no formato `Questao` do `src/data/mock.ts` da plataforma.
-- `formulario-1-escopo.md`: texto do primeiro formulário (escopo)..
+- `formulario-1-escopo.md`: texto do primeiro formulário (escopo).
 - `.claude/skills/manim-video/`: skill de animação com Manim, de `NousResearch/hermes-agent` (MIT).
 
 ## Como regenerar

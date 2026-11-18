@@ -45,7 +45,7 @@ Tecnologias: HTML, CSS e JavaScript publicados no GitHub Pages; Markdown, Pandoc
 
 Repositório: https://github.com/araujoviana/seguranca-ext
 Site com a trilha completa: https://araujoviana.github.io/seguranca-ext/
-Vídeo no YouTube (não listado): COLAR O LINK AQUI
+Vídeo no YouTube (não listado): https://youtu.be/HYUq8iDH9Vg
 Vídeo no site, com legenda: https://araujoviana.github.io/seguranca-ext/video.html
 Infográfico: https://araujoviana.github.io/seguranca-ext/infografico.html
 
